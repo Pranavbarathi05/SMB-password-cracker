@@ -1,0 +1,26 @@
+# Ignore real wordlists and sensitive data
+*.txt
+*.csv
+*.log
+
+# Ignore compiled or temporary files
+*.tmp
+*.temp
+
+# Windows-specific junk
+Thumbs.db
+Desktop.ini
+
+# Editor or environment files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+
+# Backup files
+*.bak
+*.old
+
+# Keep only example demo wordlist if present
+!example-wordlist.txt
